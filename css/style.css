@@ -1,0 +1,115 @@
+body{
+    background-color: #6699FF;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.topnav a{
+    float: right;
+    color: white;
+    text-align: right;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color: #6699FF;
+
+}
+
+
+li a {
+    display: inline-block;
+    width: white;
+}
+
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    font-size: 36px;
+    margin-top: 80;
+    font-family: serif;
+    font-style: bold;
+    text-align: center;
+    color: white;
+}
+
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+    color: white;
+}
+
+.email{
+    background-color: #6699FF;
+    color: #ffff99;
+    border:none;
+    padding:13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.website{
+    background-color: #6699FF;
+    color: #ff3300;
+    border:none;
+    padding:13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.homepage{
+    width: 500px;
+    height: 300px;
+    float: right ;
+    clear: right;
+    margin-right: 20px;
+    border-top: black;
+    border-bottom: black;
+    
+}
+
+.fix{
+    width: 500px;
+    height: 600px;
+    float: left;
+    clear:left;
+    margin: 20px;
+}
